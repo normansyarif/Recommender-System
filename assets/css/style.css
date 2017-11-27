@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ecf0f5;
+}
+
+.navbar-inverse {
+    background-color: #ff9800;
+    border-color: #ff9800;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #ff5722;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.main {
+    min-height: 1000px;
+}
+
+.msg {
+    border-radius: 4px;
+    height: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.movie {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.movie-img {
+    margin-bottom: 8px;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    margin-top: 55px;
+    background-color: #3d3d3d;
+    height: 110px;
+    color: #fff;
+    font-size: 110%;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    padding-top: 15px;
+}
+
+.main-title {
+    font-weight: bold;
+    font-size: 85%;
+}
+
+.main-title a {
+    color: #353535;
+}
+
+.stars {
+    background: url("stars.png") repeat-x 0 0;
+    width: 150px;
+
+    float: left;
+}
+
+.text-rating {
+    margin: 11px 0 0 160px;
+}
+
+.stars input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.stars input[type="radio"].star-5:checked ~ span {
+    width: 100%;
+}
+.stars input[type="radio"].star-4:checked ~ span {
+    width: 80%;
+}
+.stars input[type="radio"].star-3:checked ~ span {
+    width: 60%;
+}
+.stars input[type="radio"].star-2:checked ~ span {
+    width: 40%;
+}
+.stars input[type="radio"].star-1:checked ~ span {
+    width: 20%;
+}
+.stars label {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0!important;
+    padding: 0!important;
+    text-indent: -999em;
+    float: left;
+    position: relative;
+    z-index: 10;
+    background: transparent!important;
+    cursor: pointer;
+}
+.stars label:hover ~ span {
+    background-position: 0 -30px;
+}
+.stars label.star-5:hover ~ span {
+    width: 100% !important;
+}
+.stars label.star-4:hover ~ span {
+    width: 80% !important;
+}
+.stars label.star-3:hover ~ span {
+    width: 60% !important;
+}
+.stars label.star-2:hover ~ span {
+    width: 40% !important;
+}
+.stars label.star-1:hover ~ span {
+    width: 20% !important;
+}
+.stars span {
+    display: block;
+    width: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 30px;
+    background: url("stars.png") repeat-x 0 -60px;
+    -webkit-transition: -webkit-width 0.5s;
+    -moz-transition: -moz-width 0.5s;
+    -ms-transition: -ms-width 0.5s;
+    -o-transition: -o-width 0.5s;
+    transition: width 0.5s;
+}
+
+
+.movie-poster {
+}
+
+.movie-details{
+}
+
+.movie-title {
+    font-weight:bold;
+    font-size: 150%;
+    margin-bottom: 5px !important;
+}
+
+
+.detail-container {
+    margin-top: 50px;
+}
+
+.movie-poster img {
+    border-radius: 5px;
+    box-shadow: 4px 4px 6px 4px rgba(0, 0, 0, 0.2);
+}
+
+.movie-poster a:hover {
+    text-decoration: none;
+}
+
+.btn-block {
+    width: 95%;
+    box-shadow: 4px 4px 6px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-warning {
+    background-color: #ff9800;
+}
+
+.btn-trailer {
+    margin-top: 10px;
+}
+
+.description {
+    margin: 20px 0;
+}
+
+.nilai-knn {
+    font-size: 85%;
+}
